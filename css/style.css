@@ -1,0 +1,253 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+}
+
+.container{
+    font-family: 'Nunito', sans-serif;
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    color: #716c80;
+    font-size: 14px;
+    border-bottom: solid 2px;
+    border-bottom-color: #e7e9f1;
+}
+
+.top-bar{
+    padding: 30px 5px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.top-bar__phone{
+    color: #716c80;
+    text-decoration: none;
+}
+
+.top-bar__phone_ico{
+    margin-right: 10px;
+}
+
+.top-bar__phone:hover{
+    color: #554d89;
+}
+
+.nav{
+    display: flex;
+    /* padding: 25px 0; */
+    align-items: center;
+}
+
+.logo{
+    display: block;
+    margin-right: 30px;
+}
+
+.menu{
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 500;
+    color: #716c80;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.menu__link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #716c80;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.menu__link:last-child{
+    margin: 0;
+}
+
+.menu__link:hover{
+    color: #554d89;
+    padding-top: 25px;
+    border-top: 2px solid #e2d8f2;
+}
+
+.menu__btn{
+    white-space: nowrap;
+    font-weight: 500;
+    color: #716c80;
+    margin-left: 340px;
+}
+
+.menu__btn_login,.menu__btn_add-account{
+    cursor: pointer;
+    background: none;
+    color: #6852ed;
+    border-color: #6852ed;
+    font-family: 'Poppins', sans-serif;
+    padding: 13px 18px;
+    border-radius: 30px;
+    border-width: 1px;
+}
+
+.intro{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.intro-text{
+    margin-right: 130px;
+}
+
+.human-img{
+    max-width: 660px;
+    max-height: 700px;
+}
+
+.intro-text__tittle{
+    max-width: 350px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color:#554d89;
+    font-weight: 900;
+    margin: 0;
+}
+
+.intro-text__text{
+    font-size: 20px;
+    max-width: 400px;
+    color: #5b5766;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+}
+
+.gradient-btn{
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(to top right, #6852ed, #b644fb);
+    border-radius: 40px;
+    padding: 15px 27px;
+    border: none;
+}
+
+.arrow-btn{
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #554d89;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.arrow-btn:hover{
+    color: #342f55;
+    text-decoration: underline;
+}
+
+.services{
+    margin-top: 200px;
+    display: flex;
+}
+
+.info-block{
+    text-decoration: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.233);
+    max-width: 360px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.info-block:last-child{
+    margin: 0;
+}
+
+.info-block__ico > i{
+    font-size: 32px;
+    color: #6852ed;
+}
+
+
+
+.info-block__title{
+    font-family: 'Poppins', sans-serif;
+    color: #554d89;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.info-block__text{
+    font-size: 18px;
+    max-width: 400px;
+    color: #716c80;
+}
+
+.info-block:hover{
+    background: linear-gradient(to top right, #6852ed, #b644fb);
+}
+
+.split-section{
+    margin-top: 140px;
+    display: flex;
+    align-content: center;
+}
+
+.split-section__info{
+    margin-left: 150px;
+}
+
+.split-section__info_title{
+    font-family: 'Poppins', sans-serif;
+    max-width: 400px;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+    color: #554D89;
+}
+
+.split-section__info_text{
+font-family: sans-serif;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color: #716C80;
+margin: 22px 0 22px 0;
+}
+
+
+.video{
+    margin-top: 80px;
+    background: url(/img/video_background.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;  
+    text-align: center; 
+}
+
+.video__block-content_ico{
+    cursor: pointer;
+    border: none;
+    background: none;
+    display: block;
+    max-width: 80px;
+    max-height: 80px;
+}
